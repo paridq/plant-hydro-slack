@@ -26,7 +26,7 @@ channel = 17
 GPIO.setup(channel, GPIO.IN,pull_up_down=GPIO.PUD_DOWN)
 
 # Slack webhook - get this from https://api.slack.com/custom-integrations/incoming-webhooks
-webhook_url = "ADD_HERE"
+webhook_url = https://join.slack.com/t/waterme/shared_invite/enQtMzA4MjQyOTEwMzU4LThiZTg0M2ZlMGJjNmEzNjdiNWI3ZTY1OGZlYmFhMjI1MDZkMjhiMGYwZGRjNzJhYmM1MjZkMzllNDZmZmY1NDg
 
 # This is the function that calls the Slack webhook to notify you:
 def postToSlack():
